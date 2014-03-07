@@ -12,14 +12,14 @@ int main()
 	int i;
 	indexBit_t b=0;
 
-	printf("ib: %lu,%lX\n", INDEXBIT_BASE, INDEXBIT_BASE);
+	printf("ib: %llu,%llX\n", INDEXBIT_BASE, INDEXBIT_BASE);
 
 	b|=INDEXBIT_BASE;
-	printf("%lu,%X\n", b, b);
+	printf("%llu,llX\n", b, b);
 	for(i=0; i<63; i++){
 		b<<=(indexBit_t)1;
 		b|=INDEXBIT_BASE;
-		printf("%lu,%lX\n", b, b);
+		printf("%llu,%llX\n", b, b);
 	}
 
 	return 0;
