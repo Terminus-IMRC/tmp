@@ -1,0 +1,3 @@
+[submodule "deleteme"]
+	path = deleteme
+	url = https://github.com/Terminus-IMRC/deleteme.git
